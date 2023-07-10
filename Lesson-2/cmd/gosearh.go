@@ -6,8 +6,9 @@ import (
 	"log"
 	"strings"
 
-	"Lesson-2/pkg/crawler"
-	"Lesson-2/pkg/crawler/spider"
+	"Goland_thinknetica/Lesson-2/pkg/crawler"
+
+	"Goland_thinknetica/Lesson-2/pkg/crawler/spider"
 )
 
 var urls = []string{"https://golang.org", "https://go.dev"}
