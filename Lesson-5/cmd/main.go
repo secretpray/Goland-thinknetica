@@ -36,7 +36,7 @@ func main() {
 		if errors.Is(err, os.ErrNotExist) {
 			initFileStorage()
 		} else {
-			panic(err)
+			fmt.Printf("Error checking file: %v\n", err)
 		}
 	}
 
