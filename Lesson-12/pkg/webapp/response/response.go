@@ -22,7 +22,7 @@ type DocData struct {
 }
 
 type XMLDocData struct {
-	Title string `xml:"title"`
-	Body  string `xml:"body"`
-	URL   string `xml:"url"`
+	Title string `xml:"Title"`
+	Body  string `xml:"Body"`
+	URL   string `xml:"URL"`
 }
